@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: white;
+    font-family: arial;
+}
+.fa-main-contant{
+    
+    width: 80%;
+    height: 450px;
+    background-color:#F0F2F5;
+    margin: auto;
+    margin-bottom: 20px;
+
+   
+}
+.row{
+    display: flex;
+    position: relative;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-logo{
+    width: 50%;
+    
+}
+.fa-logo img{
+    width: 80%;
+}
+.fa-logo h2{
+    font-size: 20px;
+}
+.fa-container{
+    width: 50%;
+   
+}
+form{
+    background-color: #FFFFFF;
+    box-shadow: 5px 6px 10px rgb(207, 201, 201);
+    border-radius: 9px;
+   
+}
+
+
+form input{
+    
+    display: block;
+    padding: 10px;
+    width: 90%;
+    margin: 3px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    box-shadow: 1px 1px  rgb(207, 201, 201);
+    font-size: 18px;
+   
+
+}
+form input:focus{
+    background-color: rgb(216, 221, 221);
+   border: 1px solid rgb(182, 46, 46);
+}
+.log-in{
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.fa-container .forgot{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    
+ 
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+
+
+.fa-container button{
+    position: relative;
+    left: 20%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #36A420;
+   
+    
+    
+    
+}
+hr{
+    margin: 10px;
+}
+.fa-container button a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+    margin: 10px
+}
+.fa-container p{
+    margin: 20px;
+}
+.fa-container p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.fa-container p a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+
+}
+.fa-footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+.fa-footer-text ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 5px;
+}
+.fa-footer-text ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    
+}
+.fa-footer-text ul li a:hover{
+    text-decoration: underline;
+}
+.fa-footer-text button{
+    font-size: 20px;
+}
